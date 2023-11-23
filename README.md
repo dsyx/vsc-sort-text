@@ -2,9 +2,15 @@
 
 A VSCode extension for sorting text.
 
+![Demo](resources/images/demo.gif)
+
 ## Usage
 
+Select the text to be sorted (multi-cursors are also supported), then call up the Command Palette (`Shift+ Command + P` (Mac) / `Ctrl + Shift + P` (Windows/Linux)), enter `Sort Text` to filter and select the appropriate sorting method.
+
 ## Features
+
+- Sort selected text
 
 ## Requirements
 

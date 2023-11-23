@@ -3,7 +3,7 @@
   "displayName": "Sort Text",
   "description": "A VSCode extension for sorting text.",
   "icon": "resources/icons/logo.png",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "dsyx",
   "license": "MIT",
   "repository": {

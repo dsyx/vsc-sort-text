@@ -93,8 +93,8 @@ export function activate(context: vscode.ExtensionContext) {
 	const disposables: Array<vscode.Disposable> = [];
 
 	const commands = [
-		{ name: "vsc-sort-text.ascending", callback: () => sortUserInput(ascending) },
-		{ name: "vsc-sort-text.descending", callback: () => sortUserInput(descending) }
+		{ name: "sort-text.ascending", callback: () => sortUserInput(ascending) },
+		{ name: "sort-text.descending", callback: () => sortUserInput(descending) }
 	];
 	commands.forEach(command => {
 		disposables.push(vscode.commands.registerCommand(command.name, command.callback));
